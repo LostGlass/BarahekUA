@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  position: static;
+  z-index: 0;
+
+  font-family: "Raleway", "Inter", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}
+$mainRead: #691817;
+$bacgroundColorIkons: #f8f8f8;
+$mainBorderColor: #e0e0e0;
+$iconsTiteleColor: #828282;
+
+body {
+  overflow-x: hidden;
+  background-size: cover;
+  background-image: url(/src/img/background-img/qbkqlxC-Yendbmk-KoLUjLb.bacgroundMain.jpeg);
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $iconsTiteleColor;
+  border-radius: 20px;
+  border: 3px solid $iconsTiteleColor;
+}
+
+.headeg_background {
+  width: 100%;
+  height: 120px;
+  background-color: #ffffff;
+  border-bottom: 2px solid $mainBorderColor;
+}
+.header_vrap_content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content_header {
+  width: auto;
+  margin-top: 2%;
+}
+
+.header_logo {
+  display: flex;
+  img {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+  }
+}
+
+.all_text_header_logo {
+  width: auto;
+  margin-left: 4%;
+  white-space: nowrap;
+}
+
+.restaurant_name_header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #302f2f;
+}
+.text_under_the_name_of_the_restaurant {
+  display: flex;
+  font-weight: 700;
+  font-size: 12px;
+  color: #828282;
+  line-height: 16px;
+}
+.restaurant_city_change_text {
+  p {
+    margin-left: 2%;
+    color: $mainRead;
+  }
+}
+
+.header_nav_bar {
+  top: 15%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  a {
+    padding-bottom: 13px;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 15px;
+    &:hover {
+      color: $mainRead;
+    }
+  }
+  .link_menu_nav_bar {
+    color: $mainRead;
+    border-bottom: 2px solid $mainRead;
+  }
+}
+
+.wrap_right_panel {
+  display: flex;
+
+  div {
+    cursor: pointer;
+    display: flex;
+    transition: 0.3s all;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid $mainBorderColor;
+    background-color: $bacgroundColorIkons;
+    box-shadow: 0px 4px 10px 1px silver;
+    &:hover {
+      transition: 0.5s all;
+      border: 1px solid $mainRead;
+    }
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .changing_the_language_on_the_site {
+    width: 81.88px;
+    height: 48px;
+  }
+  .registration_header {
+    width: 48px;
+    height: 48px;
+    margin-left: 5%;
+  }
+  .header_burger_menu {
+    width: 48px;
+    height: 48px;
+    margin-left: 5%;
+  }
+}
