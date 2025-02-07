@@ -24,7 +24,7 @@ function TermsOfUseUiPanel({
             onClick={() => setActiveTermsOfUseUiPanel(false)}>
             <img
               src={rightArrowIcons}
-              alt="aaaaaa"></img>
+              alt="right-arrow-icons"></img>
           </div>
           Условия использования
         </div>

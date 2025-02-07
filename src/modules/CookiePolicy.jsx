@@ -26,7 +26,7 @@ function CookiePolicy({ activeUsefulInfo, setActiveUsefulInfo }) {
             }>
             <img
               src={rightArrowIcons}
-              alt="aaaaaa"></img>
+              alt="right-arrow-icons"></img>
           </div>
           Политика использования файлов cookie
         </div>

@@ -179,6 +179,10 @@ $iconsTiteleColor: #828282;
   position: absolute;
   transition: 0.5s all;
   overflow-y: hidden;
+
+  @media screen {
+    overflow-y: scroll;
+  }
 }
 .uiPanel_vrap.active {
   right: 0;

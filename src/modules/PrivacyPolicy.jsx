@@ -26,7 +26,7 @@ function PivacyPolicy({ activeUsefulInfo, setActiveUsefulInfo }) {
             }>
             <img
               src={rightArrowIcons}
-              alt="aaaaaa"></img>
+              alt="right-arrow-icons"></img>
           </div>
           Политика конфидециальности
         </div>

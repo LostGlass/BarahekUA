@@ -31,6 +31,12 @@ body {
   background-color: #ffffff;
   border-bottom: 2px solid #e0e0e0;
 }
+@media screen {
+  .headeg_background {
+    margin: 0 auto;
+    max-width: 1920px;
+  }
+}
 
 .header_vrap_content {
   width: 90%;
@@ -60,6 +66,12 @@ body {
   width: 56px;
   height: 56px;
   border-radius: 8px;
+}
+@media screen {
+  .header_logo img {
+    min-width: 56px;
+    min-height: 56px;
+  }
 }
 
 .all_text_header_logo {
@@ -146,17 +158,41 @@ body {
   width: 24px;
   height: 24px;
 }
+@media screen {
+  .wrap_right_panel div img {
+    min-width: 24px;
+    min-height: 24px;
+  }
+}
 .wrap_right_panel .changing_the_language_on_the_site {
   width: 81.88px;
   height: 48px;
+}
+@media screen {
+  .wrap_right_panel .changing_the_language_on_the_site {
+    min-width: 81.88px;
+    min-height: 48px;
+  }
 }
 .wrap_right_panel .registration_header {
   width: 48px;
   height: 48px;
   margin-left: 5%;
 }
+@media screen {
+  .wrap_right_panel .registration_header {
+    min-width: 48px;
+    min-height: 48px;
+  }
+}
 .wrap_right_panel .header_burger_menu {
   width: 48px;
   height: 48px;
   margin-left: 5%;
+}
+@media screen {
+  .wrap_right_panel .header_burger_menu {
+    min-width: 40px;
+    min-height: 40px;
+  }
 }

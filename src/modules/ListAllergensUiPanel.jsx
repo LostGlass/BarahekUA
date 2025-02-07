@@ -18,7 +18,7 @@ function ListAllergensUiPanel({
             <img
               className="arrow_icon_button_closeMenu_allergens"
               src={rightArrowIcons}
-              alt=""></img>
+              alt="right-arrow-icons"></img>
           </div>
           <p>Назад</p>
         </div>

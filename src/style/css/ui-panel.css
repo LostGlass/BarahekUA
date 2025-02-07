@@ -71,6 +71,11 @@
   transition: 0.5s all;
   overflow-y: hidden;
 }
+@media screen {
+  .uiPanel_vrap {
+    overflow-y: scroll;
+  }
+}
 
 .uiPanel_vrap.active {
   right: 0;

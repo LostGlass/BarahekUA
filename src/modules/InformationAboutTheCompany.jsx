@@ -27,7 +27,7 @@ function InformationAboutTheCompany({ activeUsefulInfo, setActiveUsefulInfo }) {
             }>
             <img
               src={rightArrowIcons}
-              alt="aaaaaa"></img>
+              alt="right-arrow-icons"></img>
           </div>
           Информация про компанию
         </div>

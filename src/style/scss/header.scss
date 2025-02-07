@@ -36,6 +36,11 @@ body {
   height: 120px;
   background-color: #ffffff;
   border-bottom: 2px solid $mainBorderColor;
+
+  @media screen {
+    margin: 0 auto;
+    max-width: 1920px;
+  }
 }
 .header_vrap_content {
   width: 90%;
@@ -56,6 +61,10 @@ body {
     width: 56px;
     height: 56px;
     border-radius: 8px;
+    @media screen {
+      min-width: 56px;
+      min-height: 56px;
+    }
   }
 }
 
@@ -126,20 +135,38 @@ body {
     img {
       width: 24px;
       height: 24px;
+
+      @media screen {
+        min-width: 24px;
+        min-height: 24px;
+      }
     }
   }
   .changing_the_language_on_the_site {
     width: 81.88px;
     height: 48px;
+    @media screen {
+      min-width: 81.88px;
+      min-height: 48px;
+    }
   }
+
   .registration_header {
     width: 48px;
     height: 48px;
     margin-left: 5%;
+    @media screen {
+      min-width: 48px;
+      min-height: 48px;
+    }
   }
   .header_burger_menu {
     width: 48px;
     height: 48px;
     margin-left: 5%;
+    @media screen {
+      min-width: 40px;
+      min-height: 40px;
+    }
   }
 }
