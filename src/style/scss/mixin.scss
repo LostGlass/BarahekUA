@@ -1,0 +1,117 @@
+@mixin contact-block-wrapper-uiPanel {
+  width: 300px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s all;
+  justify-content: space-between;
+  border-bottom: 1px solid $mainBorderColor;
+  border-radius: 5px;
+  padding: 16px 0px 16px 0px;
+  cursor: pointer;
+  p {
+    width: 200px;
+  }
+  &:hover {
+    box-shadow: 0px 04px 10px 0px silver;
+    .rotate_icons {
+      transition: 0.5s all;
+      transform: rotate(360deg);
+    }
+    border-bottom: 1px solid $mainRead;
+  }
+}
+
+@mixin contact-block-uiPanel-content {
+  color: black;
+  @include centering-the-block;
+  font-size: small;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@mixin contact-block-uiPanel-vrap-icon {
+  width: 40px;
+  height: 40px;
+  @include centering-the-block;
+  margin-right: 10px;
+}
+@mixin contact-block-uiPanel-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  transition: 0.5s all;
+}
+
+@mixin centering-the-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin vrap-useful-information-ui-panel {
+  z-index: 2;
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  color: #000000;
+  overflow-x: scroll;
+  font-weight: 200;
+  backdrop-filter: blur(10px);
+}
+
+@mixin content-useful-information-ui-panel {
+  width: 50%;
+  height: auto;
+  padding: 50px;
+  position: relative;
+  bottom: -100%;
+  margin: 0 auto;
+  border-radius: 8px;
+  transition: 0.5s all;
+  background-color: #ffffff;
+  border: 2px solid $mainBorderColor;
+}
+
+@mixin vrap-header-useful-information-ui-panel {
+  top: -80px;
+  transition: 0.5s all;
+  width: 100%;
+  height: 80px;
+  margin-top: -80px;
+  position: sticky;
+  margin-bottom: 50px;
+  border-bottom: 2px solid $mainBorderColor;
+  background-color: #ffffff;
+}
+
+@mixin header-useful-information-ui-panel {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: large;
+  font-weight: 600;
+}
+
+@mixin icon-header-useful-information-ui-panel {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: $mainRead;
+  margin-right: 10px;
+  transition: 0.5s all;
+  @include centering-the-block;
+  img {
+    width: 16px;
+    height: 16px;
+    transform: rotate(180deg);
+  }
+  &:hover {
+    transition: 0.5s all;
+    background-color: #b11c19;
+  }
+}

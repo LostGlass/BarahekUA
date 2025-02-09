@@ -1,0 +1,22 @@
+$mainRead: #691817;
+$bacgroundColorIkons: #f8f8f8;
+$mainBorderColor: #e0e0e0;
+$iconsTiteleColor: #828282;
+@import "./mixin.scss";
+
+.wrapp_main_bloc_menu {
+  max-width: 1232px;
+  margin: 0 auto;
+  background-size: cover;
+  @media (min-width: 1920px) {
+    max-width: 1232px;
+  }
+  .main_menu_logo {
+    max-width: 1232px;
+    height: 429px;
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-image: url(/src/img/background-img/uqGGbef-GqinRWO-eyICnaD\mainLogoCenter\.jpeg);
+  }
+}
