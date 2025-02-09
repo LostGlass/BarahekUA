@@ -126,6 +126,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 48%;
 }
 .wrap_right_panel div {
   cursor: pointer;
@@ -164,7 +165,6 @@ body {
 .wrap_right_panel .changing_the_language_on_the_site {
   width: 81.88px;
   height: 48px;
-  margin-left: 303%;
 }
 @media screen {
   .wrap_right_panel .changing_the_language_on_the_site {

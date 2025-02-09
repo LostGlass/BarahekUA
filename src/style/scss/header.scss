@@ -114,7 +114,7 @@ body {
 
 .wrap_right_panel {
   display: flex;
-
+  margin-left: 48%;
   div {
     cursor: pointer;
     display: flex;
@@ -142,7 +142,6 @@ body {
   .changing_the_language_on_the_site {
     width: 81.88px;
     height: 48px;
-    margin-left: 303%;
     @media screen {
       min-width: 81.88px;
       min-height: 48px;
