@@ -7,10 +7,8 @@ $iconsTiteleColor: #828282;
 .wrapp_main_bloc_menu {
   max-width: 1232px;
   margin: 0 auto;
+  z-index: 0;
   background-size: cover;
-  @media (min-width: 1920px) {
-    max-width: 1232px;
-  }
   .main_menu_logo {
     max-width: 1232px;
     height: 429px;
@@ -18,5 +16,113 @@ $iconsTiteleColor: #828282;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     background-image: url(/src/img/background-img/uqGGbef-GqinRWO-eyICnaD\mainLogoCenter\.jpeg);
+  }
+}
+
+.wrap_main_bloc_conten {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 24px 0px 24px;
+  background-color: #fff;
+}
+
+.left_blok_wrap {
+  width: 272px;
+  height: 712px;
+  padding: 24px 0px 24px 0px;
+  max-width: 272px;
+
+  .wrap_change_menu_leftBloc {
+    width: 272px;
+    height: 47px;
+    overflow: hidden;
+    border: 2px solid $mainRead;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s all;
+    div {
+      display: flex;
+      transition: 0.5s all;
+      padding: 10px 16px 10px 16px;
+      &:hover {
+        color: $mainRead;
+        transition: 0.5s all;
+        box-shadow: 0px 4px 10px 3px silver;
+      }
+      P {
+        width: 97.34px;
+        margin-left: 8px;
+        .discount_change_menu_leftBloc {
+          font-size: x-small;
+          padding: 5px;
+          margin: 0px 0px 0px 5px;
+          color: #fff;
+          background-color: #c73836;
+          border-radius: 8px;
+        }
+      }
+      b {
+        display: flex;
+      }
+    }
+
+    .in_the_establishment_leftBloc {
+      color: $mainRead;
+    }
+
+    .with_you_leftBloc {
+      opacity: 0;
+      p {
+        width: 100.64px;
+      }
+    }
+    .delivery_leftBloc {
+      opacity: 0;
+    }
+  }
+  .rightArrowIcons_change_menu_leftBloc {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    margin-left: 80px;
+    transition: 0.5s all;
+    transform: rotate(90deg);
+  }
+}
+.rightArrowIcons_change_menu_leftBloc.active {
+  transform: rotate(270deg);
+  transition: 0.5s all;
+}
+.wrap_change_menu_leftBloc.active {
+  height: 140px;
+  transition: 0.5s all;
+  .with_you_leftBloc {
+    opacity: 1;
+  }
+  .delivery_leftBloc {
+    opacity: 1;
+  }
+}
+
+.center_blok_wrap {
+  width: 592px;
+  margin: 0px 24px 0px 24px;
+  max-width: 592px;
+}
+
+.rigth_blok_wrap {
+  width: 272px;
+  height: 712px;
+  padding: 24px 0px 24px 0px;
+  max-width: 272px;
+  .search_by_menu_rigth_blok {
+    width: 272px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 192, 192);
   }
 }

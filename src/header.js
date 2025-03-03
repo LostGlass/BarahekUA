@@ -9,7 +9,6 @@ import headerLogo from "./img/photo-header-logo/thumbnail_QCBpHrz-dRFCtZV-rhcTZP
 
 function HeaderRender() {
   const [activeUiPanel, setActiveUiPanel] = useState(false);
-
   return (
     <div className="headeg_background">
       <VrapUiPanel

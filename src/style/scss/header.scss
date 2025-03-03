@@ -3,8 +3,8 @@
   margin: 0;
   text-decoration: none;
   box-sizing: border-box;
-  position: static;
-  z-index: 0;
+  // position: sticky;
+  // z-index: 0;
 
   font-family: "Raleway", "Inter", -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
@@ -36,12 +36,14 @@ body {
   height: 120px;
   margin-bottom: 20px;
   background-color: #ffffff;
+  position: sticky;
   border-bottom: 2px solid $mainBorderColor;
 }
 .header_vrap_content {
   max-width: 1232px;
   margin: 0 auto;
   display: flex;
+  position: sticky;
   flex-direction: row;
   align-items: center;
 }
